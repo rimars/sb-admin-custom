@@ -26,7 +26,7 @@ function style() {
             overrideBrowserslist: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(cleanCSS())  // Minify CSS
+        // .pipe(cleanCSS())  // Minify CSS
         .pipe(rename({ suffix: '.min' }))  // Rename to *.min.css
         .pipe(gulp.dest(paths.scss.dest))  // Save to destination
         .pipe(browserSync.stream());  // Stream changes to all browsers
