@@ -10852,6 +10852,7 @@ a:focus {
 }
 .sidebar .nav-item {
   position: relative;
+  color: #000;
 }
 .sidebar .nav-item:last-child {
   margin-bottom: 1rem;
